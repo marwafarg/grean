@@ -1,0 +1,62 @@
+body{
+    background-image: url(green.jpg);
+    background-size: cover;
+    background-position:top;
+    padding: 0px;
+    margin:0px;
+    background-repeat: no-repeat;
+}
+
+#dd{
+   width: 100%;
+    height: 60px;
+    background-color: silver;
+    opacity: 0,4;
+}
+#dd ul li{
+    list-style: none;
+    line-height: 10px;
+    margin: 0 18 px;
+    display: inline-block;
+    padding: 15px 29px;
+    font: 20px;
+    font-family:inherit;
+    color: azure;
+    font-style: oblique;
+    
+    
+    
+} #dd ul{
+    float: right;
+    margin-right: 20px;
+    
+    
+}
+ #dd ul li:hover{
+    background-color:chartreuse;
+    border-radius: 20px;
+}
+ #ee{
+   top: 50%;
+     left: 75%;
+     transform:translate(-50%,-50%);
+     font-family: sans-serif;
+     position: absolute;
+     color: aliceblue;
+     font-size: 30px;
+     width: 100%;
+     
+}
+#ee button{
+    height: 50px;
+    width:10%;
+    background-color: brown;
+    color: aliceblue;
+    margin-left: 60px;
+    border-radius: 5%;
+}
+#ee button:hover{
+    background-color: burlywood;
+    border-radius: 50%
+    
+}
